@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exam 2</string>
+    <string name="splash_screen_placeholder">This is the splash screen</string>
+    <string name="ChopTrees_screen_placeholder">This is the ChopTrees screen</string>
+</resources>
