@@ -32,6 +32,7 @@ public class SplashScreen extends AppCompatActivity {
                 () -> {
                     Intent myIntent = new Intent(this, ChopTrees.class);
                     startActivity(myIntent);
+                    finish();
                 }, splashTime);
     }
 

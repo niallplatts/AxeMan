@@ -6,13 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".ChopTrees">
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/treeImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ChopTrees_screen_placeholder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/treehires" />
+
+    <TextView
+        android:id="@+id/counterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="300dp"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="28dp"
+        android:onClick="resetCounter"
+        android:text="Reset"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
